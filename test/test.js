@@ -7,9 +7,9 @@ describe('node-app', () => {
     })
 
     describe('GET /', function() {
-        it('respond with hello ashutosh', (done) => {
+        it('respond with hello Ashutosh', (done) => {
             //navigate to root and check the response is "hello world"
-            request(app).get('/').expect('hello ashutosh').end(done);
+            request(app).get('/').expect('hello Ashutosh').end(done);
         });
     });
 })
